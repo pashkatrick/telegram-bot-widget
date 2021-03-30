@@ -2,7 +2,7 @@
 /* An adaptation of this https://codepen.io/Varo/pen/gbZzgr */
 
 html, body {
-    background: #e5e5e5;
+    background: #fff;
     font-family: 'Lato', sans-serif;
     margin: 0 auto;
 }
@@ -46,7 +46,6 @@ html, body {
         -ms-flex-order: 1;
             order: 1;
     border-bottom-right-radius: 0;
-    box-shadow: 1px 2px 0 #D4D4D4;
 }
 
 .admin .msg {
@@ -54,18 +53,19 @@ html, body {
     -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1;
-    border-top-left-radius: 0;
-    box-shadow: -1px 2px 0 #D4D4D4;
+    border-bottom-left-radius: 0;
 }
 
 .msg {
     word-wrap: break-word;
-    background: white;
+    background: #edeff0;
     min-width: 50px;
     max-width: 80%;
-    padding: 10px;
-    border-radius: 2px;
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+    padding: 15px;
+    padding-top: 20px;
+    border-radius: 14px;
+    /* box-shadow: 0 2px 0 rgba(0, 0, 0, 0.07); */
+
 }
 
 .msg p {
@@ -123,20 +123,22 @@ html, body {
 
 input.textarea {
     position: fixed;
-    bottom: 14px;
+    bottom: 0;
     left: 0;
     right: 0;
     width: 95%;
-    height: 30px;
+    height: 60px;
     z-index: 99;
     background: #fafafa;
     border: none;
     outline: none;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #666;
     font-weight: 400;
+    font-size: 16px;
 }
+
 
 
 a.banner {

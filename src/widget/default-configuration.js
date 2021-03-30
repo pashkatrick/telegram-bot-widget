@@ -1,7 +1,7 @@
 
 export const defaultConfiguration = {
-    titleClosed: 'Click to chat!',
-    titleOpen: 'Let\'s chat!',
+    titleClosed: '',
+    titleOpen: 'Telegram',
     closedStyle: 'chat', // button or chat
     closedChatAvatarUrl: '', // only used if closedStyle is set to 'chat'
     cookieExpiration: 1, // in days. Once opened, closed chat title will be shown as button (when closedStyle is set to 'chat')
